@@ -28,27 +28,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Song lyrics with timing (in milliseconds now for better precision)
     // //HangOver
-    // const lyrics = [
-    //     { time: 0, text: "🎵 PAR JABSE DEKHA TUJHE..." },
-    //     { time: 2000, text: "💖 JO HUA NAHI" },
-    //     { time: 3400, text: "❤️ WO HONE LAGA"},
-    //     { time: 5300, text: "❤️ DIL MERA MUJHE JAGAKE..." },
-    //     { time: 8000, text: "✨ KHUD SEENE ME SONE LAGA" }
-    // ];
+     const lyrics = [
+         { time: 0, text: "🎵 PAR JABSE DEKHA TUJHE..." },
+         { time: 2000, text: "💖 JO HUA NAHI" },
+         { time: 3400, text: "❤️ WO HONE LAGA"},
+         { time: 5300, text: "❤️ DIL MERA MUJHE JAGAKE..." },
+         { time: 8000, text: "✨ KHUD SEENE ME SONE LAGA" }
+     ];
 
 
     // // Do You Know
-    const lyrics = [
-        { time: 400, text: "🎶✨ OH JAANEMAN... 💕" },
-        { time: 1600, text: "💖🌹 DO YOU KNOW... 💫" },
-        { time: 2600, text: "❤️❤️❤️" },
-        { time: 3500, text: "💓💓💓" },
-        { time: 5100, text: "💞" },
-        { time: 6000, text: "✨🌙 HUME TUMSE MOHABBAT..." },
-        { time: 8000, text: "🎵💫 HUII HAI... 💕" },
-        { time: 9900, text: "🌹💖 OH JAANEMAN... 🎶" },
-        { time: 12000, text: "💞💖 DO YOU KNOW... 🌟" }
-    ];
+    // const lyrics = [
+    // { time: 400, text: "🎶✨ OH JAANEMAN... 💕" },
+      //  { time: 1600, text: "💖🌹 DO YOU KNOW... 💫" },
+        // { time: 2600, text: "❤️❤️❤️" },
+        // { time: 3500, text: "💓💓💓" },
+      //  { time: 5100, text: "💞" },
+      //  { time: 6000, text: "✨🌙 HUME TUMSE MOHABBAT..." },
+      //  { time: 8000, text: "🎵💫 HUII HAI... 💕" },
+      //  { time: 9900, text: "🌹💖 OH JAANEMAN... 🎶" },
+      //  { time: 12000, text: "💞💖 DO YOU KNOW... 🌟" }
+   // ];
 
     // Audio variables
     let audio;
@@ -1070,3 +1070,4 @@ function hideLetter() {
         letterContent.style.transform = 'scale(0.7) translateY(50px)';
     }, 200);
 }
+
